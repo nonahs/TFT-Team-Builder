@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="dragula.css" />
+    <script src="main.js"></script>
+
+    <title>TFT Full Team Builder</title>
+  </head>
+
+  <body onload="Populate()">
+
+    <div class="row1"><h1>TFT Full Team Builder</h1></div>
+
+    <div class="row">
+      
+      <div class="column1">
+
+        <div id="drop-area">
+          <div id="earlyTable">
+          </div>
+
+          <div id="midTable">
+          </div>
+
+          <div id="lateTable">
+          </div>
+          <br><br>
+        </div>
+      </div>
+
+      <div class="column2">
+        <!-- Rounded switch from W3-->
+        <label class="switch">
+            <input type="checkbox" id="earlyCheck" onclick="earlyCheck()" checked>
+            <span class="slider round"></span>
+        </label>Early Game
+        <label class="switch">
+          <input type="checkbox" id="midCheck" onclick="midCheck()" checked>
+          <span class="slider round"></span>
+        </label>Mid Game
+        <label class="switch">
+          <input type="checkbox" id="lateCheck" onclick="lateCheck()" checked>
+          <span class="slider round"></span>
+        </label>Late Game
+
+        <div id="Champions"></div>
+        <br>
+        <div id="Items"></div>
+        <br><input id="clickMe" type="button" value="Download Image" onclick="screenshot(this);" />
+      </div>
+
+    </div>
+    
+    <script src='dragula.js'></script>
+    <script src='html2canvas.js'></script>
+  </body>
+</html>
