@@ -1,4 +1,4 @@
-#TFT Full Game Team Builder with Items and Image Output
+# TFT Full Game Team Builder with Items and Image Output
 
 First version of my Team Builder with Item Support for various stages of the game and the ability to share your created team as a image for the Riot Games game Teamfight Tactics.
 Other TFT Team Builders I have seen do no have allow items to be added to teams, only display final teams and have limited or no sharing abilities.
@@ -10,7 +10,7 @@ Mid game invloves completing items for your late game comp and also gathering th
 Late game invloves the final comp with the completed items on the main carries or tanks depending on the team comp.
 By providing the option to add early and mid games comps my team builder makes it easier to users to know how to get to the final team.
 
-#Features
+# Features
 * Can optionally create early, mid and late game team compositions.
 * Can add items to any champion for any stage of the game.
 * Ability to export team as a png file for easy sharing.
