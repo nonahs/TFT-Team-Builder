@@ -173,11 +173,11 @@ function lateCheck() {
 }
 
 
-let ChampionList = ['Aatrox', 'Ahri', 'Akali', 'Anivia', 'Ashe', 'Aurelion_Sol', 'Blitzcrank', 'Brand', 'Braum', 'ChoGath', 'Darius', 'Draven',
-                    'Elise', 'Evelynn', 'Fiora', 'Gangplank', 'Garen', 'Gnar', 'Graves', 'Karthus', 'Kassadin', 'Katarina', 'Kayle', 'Kennen',
-                    'KhaZix', 'Kindred', 'Leona', 'Lissandra', 'Lucian', 'Lulu', 'Miss_Fortune', 'Mordekaiser', 'Morgana', 'Nidalee', 'Poppy',
-                    'Pyke', 'RekSai', 'Rengar', 'Sejuani', 'Shen', 'Shyvana', 'Swain', 'Tristana', 'Twisted_Fate', 'Varus', 'Vayne', 'Veigar',
-                    'Volibear', 'Warwick', 'Yasuo', 'Zed'];
+let ChampionList = ['Aatrox', 'Ahri', 'Akali', 'Anivia', 'Ashe', 'Aurelion_Sol', 'Blitzcrank', 'Brand', 'Braum', 'Camille', 'ChoGath', 'Darius', 'Draven',
+                    'Elise', 'Evelynn', 'Fiora', 'Gangplank', 'Garen', 'Gnar', 'Graves', 'Jayce', 'Jinx', 'Karthus', 'Kassadin', 'Katarina', 'Kayle', 'Kennen',
+                    'KhaZix', 'Kindred', 'Leona', 'Lissandra', 'Lucian', 'Lulu', 'MissFortune', 'Mordekaiser', 'Morgana', 'Nidalee', 'Poppy',
+                    'Pyke', 'RekSai', 'Rengar', 'Sejuani', 'Shen', 'Shyvana', 'Swain', 'Tristana', 'Varus', 'Vayne', 'Veigar', 'Vi', 'Volibear',
+                    'Warwick', 'Yasuo', 'Zed'];
 
 let ItemList = ['BF_Sword', 'Recurve_Bow', 'Needlessly_Large_Rod', 'Tear_of_the_Goddess', 'Chain_Vest', 'Negatron_Cloak', 'Giants_Belt', 'Spatula',
                 'Blade_of_the_Ruined_King', 'Darkin', 'Dervish_Blade', 'Dragons_Claw', 'Force_of_Nature', 'Frozen_Heart',
