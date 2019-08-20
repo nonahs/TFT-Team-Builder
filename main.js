@@ -175,7 +175,7 @@ function lateCheck() {
 
 let ChampionList = ['Aatrox', 'Ahri', 'Akali', 'Anivia', 'Ashe', 'Aurelion_Sol', 'Blitzcrank', 'Brand', 'Braum', 'Camille', 'ChoGath', 'Darius', 'Draven',
                     'Elise', 'Evelynn', 'Fiora', 'Gangplank', 'Garen', 'Gnar', 'Graves', 'Jayce', 'Jinx', 'Karthus', 'Kassadin', 'Katarina', 'Kayle', 'Kennen',
-                    'KhaZix', 'Kindred', 'Leona', 'Lissandra', 'Lucian', 'Lulu', 'Miss_Fortune', 'Mordekaiser', 'Morgana', 'Nidalee', 'Poppy',
+                    'KhaZix', 'Kindred', 'Leona', 'Lissandra', 'Lucian', 'Lulu', 'Miss_Fortune', 'Mordekaiser', 'Morgana', 'Nidalee', 'Poppy', 'Pantheon',
                     'Pyke', 'RekSai', 'Rengar', 'Sejuani', 'Shen', 'Shyvana', 'Swain', 'Tristana', 'Varus', 'Vayne', 'Veigar', 'Vi', 'Volibear',
                     'Warwick', 'Yasuo', 'Zed'];
 
