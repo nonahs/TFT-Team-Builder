@@ -20,6 +20,8 @@ Uses Dragula for drag and drop and html2canvas for converting the page to a canv
 [Dragula](https://github.com/bevacqua/dragula) requires dragula.css and dragula.js
 [html2canvas](http://html2canvas.hertzen.com/) requires html2canvas.js
 
+Test at [https://nonahs.github.io/TFT-Team-Builder/](https://nonahs.github.io/TFT-Team-Builder/)
+
 Tested with firefox 67 and chrome 75. If using offline with chrome you may get a tainted canvas error when saving as image. This is due to chrome thinking the images are coming from a different domain. This can be fixed by running your own webserver locally or launching chrome with the '--allow-file-access-from-files' flag.
 
 TFT Full Game Team Builder was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games.  Riot Games does not endorse or sponsor this project.
