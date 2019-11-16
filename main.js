@@ -179,6 +179,17 @@ let ChampionList = ['Aatrox', 'Ahri', 'Akali', 'Anivia', 'Ashe', 'Aurelion_Sol',
                     'Pyke', 'RekSai', 'Rengar', 'Sejuani', 'Shen', 'Shyvana', 'Swain', 'Tristana', 'Varus', 'Vayne', 'Veigar', 'Vi', 'Volibear',
                     'Warwick', 'Yasuo', 'Zed'];
 
+// Season 2 Items
+let ItemList = ['BF_Sword', 'Recurve_Bow', 'Needlessly_Large_Rod', 'Tear_of_the_Goddess', 'Chain_Vest', 'Negatron_Cloak', 'Giants_Belt', 'Sparring_Gloves', 'Spatula',
+                'Blade_of_the_Ruined_King', 'Deathblade', 'Dragons_Claw', 'Force_of_Nature', 'Frozen_Heart', 'Frozen_Mallet', 'Giant_Slayer',
+                'Guardian_Angel', 'Guinsoos_Rageblade', 'Hand_of_Justice', 'Hextech_Gunblade', 'Hush', 'Iceborn_Gauntlet', 'Infinity_Edge',
+                'Ionic_Spark', 'Jeweled_Gauntlet', 'Locket_of_the_Iron_Solari', 'Lord_Dominiks_Regards', 'Ludens_Echo', 'Morellonomicon',
+                'Phantom_Dancer', 'Quicksilver', 'Rabadons_Deathcap', 'Rapid_Firecannon', 'Red_Buff', 'Redemption', 'Runaans_Hurricane',
+                'Seraphs_Embrace', 'Spear_of_Shojin', 'Statikk_Shiv', 'Sword_Breaker', 'Talisman_of_Ascension', 'The_Black_Cleaver', 'The_Bloodthirster',
+                'Thiefs_Gloves', 'Thornmail', 'Titanic_Hydra', 'Trap_Claw', 'Wardens_Mail', 'Warmogs_Armor', 'Wooglets_Witchcap', 'Youmuus_Ghostblade',
+                'Zekes_Herald', 'Zephyr'];
+
+/* Season 1 Items
 let ItemList = ['BF_Sword', 'Recurve_Bow', 'Needlessly_Large_Rod', 'Tear_of_the_Goddess', 'Chain_Vest', 'Negatron_Cloak', 'Giants_Belt', 'Spatula',
                 'Blade_of_the_Ruined_King', 'Darkin', 'Dervish_Blade', 'Dragons_Claw', 'Force_of_Nature', 'Frozen_Heart',
                 'Frozen_Mallet', 'Guardian_Angel', 'Guinsoos_Rageblade', 'Hextech_Gunblade', 'Hush', 'Infinity_Edge', 'Ionic_Spark',
@@ -186,3 +197,4 @@ let ItemList = ['BF_Sword', 'Recurve_Bow', 'Needlessly_Large_Rod', 'Tear_of_the_
                 'Rabadons_Deathcap', 'Rapid_Firecannon', 'Red_Buff', 'Redemption', 'Runaans_Hurricane', 'Seraphs_Embrace',
                 'Spear_of_Shojin', 'Statikk_Shiv', 'Sword_Breaker', 'Sword_of_the_Divine', 'The_Bloodthirster',
                 'Thornmail', 'Titanic_Hydra', 'Warmogs_Armor', 'Youmuus_Ghostblade', 'Yuumi', 'Zekes_Herald', 'Zephyr'];
+*/
