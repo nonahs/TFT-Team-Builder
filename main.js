@@ -21,7 +21,7 @@ function AddItems() {
     let tableContent = "";
     tableContent += "<table class='tableRight'><tbody class='container'><tr id='Item'>"
     const addRecord = (record) => {
-        tableContent += `<td><div><img class="itemIcons" src='images/items/${record}_item.png' alt=${record}</div></td>`;
+        tableContent += `<td><div><img class="itemIcons" src='images/items/Season 2/${record}_item.png' alt=${record}</div></td>`;
     }
 
     ItemList.forEach(addRecord);
