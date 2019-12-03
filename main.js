@@ -177,7 +177,7 @@ let ChampionList = ['Aatrox', 'Amumu', 'Annie', 'Ashe', 'Azir', 'Brand', 'Braum'
                     'KhaZix', 'Kindred', 'KogMaw', 'LeBlanc', 'Lucian', 'Lux', 'Malphite', 'Malzahar', 'Maokai', 'MasterYi', 'Nami',
                     'Nasus', 'Nautilus', 'Neeko', 'Nocturne', 'Olaf', 'Ornn', 'Qiyana', 'RekSai', 'Renekton', 'Senna', 'Singed', 'Sion',
                     'Sivir', 'Skarner', 'Soraka', 'Syndra', 'Taliyah', 'Taric', 'Thresh', 'Twitch', 'Varus', 'Vayne', 'Veigar', 'Vladimir',
-                    'Volibear', 'Warwick', 'Yasuo', 'Yorrick', 'Zed', 'Zyra'];
+                    'Volibear', 'Warwick', 'Yasuo', 'Yorick', 'Zed', 'Zyra'];
 
 // Season 2 Items
 let ItemList = ['BF_Sword', 'Recurve_Bow', 'Needlessly_Large_Rod', 'Tear_of_the_Goddess', 'Chain_Vest', 'Negatron_Cloak', 'Giants_Belt', 'Sparring_Gloves', 'Spatula',
