@@ -89,7 +89,7 @@ function screenshot(el) {
     html2canvas(document.querySelector("#drop-area")).then(canvas => {
         var image = canvas.toDataURL("image/png");
         
-        //Add These To open image in new window
+        //Add These To open image in new window instead of saving to file
         //var newTab = window.open();
         //newTab.document.body.innerHTML = '<img src=' + image + '>';
 
@@ -172,12 +172,12 @@ function lateCheck() {
     }
 }
 
-
-let ChampionList = ['Aatrox', 'Ahri', 'Akali', 'Anivia', 'Ashe', 'Aurelion_Sol', 'Blitzcrank', 'Brand', 'Braum', 'Camille', 'ChoGath', 'Darius', 'Draven',
-                    'Elise', 'Evelynn', 'Fiora', 'Gangplank', 'Garen', 'Gnar', 'Graves', 'Jayce', 'Jinx', 'Karthus', 'Kassadin', 'Katarina', 'Kayle', 'Kennen',
-                    'KhaZix', 'Kindred', 'Leona', 'Lissandra', 'Lucian', 'Lulu', 'Miss_Fortune', 'Mordekaiser', 'Morgana', 'Nidalee', 'Poppy', 'Pantheon',
-                    'Pyke', 'RekSai', 'Rengar', 'Sejuani', 'Shen', 'Shyvana', 'Swain', 'Tristana', 'Varus', 'Vayne', 'Veigar', 'Vi', 'Volibear',
-                    'Warwick', 'Yasuo', 'Zed'];
+// Season 2 Champions
+let ChampionList = ['Aatrox', 'Amumu', 'Annie', 'Ashe', 'Azir', 'Brand', 'Braum', 'Diana', 'DrMundo', 'Ezreal', 'Ivern', 'Janna', 'Jax',
+                    'KhaZix', 'Kindred', 'KogMaw', 'LeBlanc', 'Lucian', 'Lux', 'Malphite', 'Malzahar', 'Maokai', 'MasterYi', 'Nami',
+                    'Nasus', 'Nautilus', 'Neeko', 'Nocturne', 'Olaf', 'Ornn', 'Qiyana', 'RekSai', 'Renekton', 'Senna', 'Singed', 'Sion',
+                    'Sivir', 'Skarner', 'Soraka', 'Syndra', 'Taliyah', 'Taric', 'Thresh', 'Twitch', 'Varus', 'Vayne', 'Veigar', 'Vladimir',
+                    'Volibear', 'Warwick', 'Yasuo', 'Yorrick', 'Zed', 'Zyra'];
 
 // Season 2 Items
 let ItemList = ['BF_Sword', 'Recurve_Bow', 'Needlessly_Large_Rod', 'Tear_of_the_Goddess', 'Chain_Vest', 'Negatron_Cloak', 'Giants_Belt', 'Sparring_Gloves', 'Spatula',
@@ -188,6 +188,15 @@ let ItemList = ['BF_Sword', 'Recurve_Bow', 'Needlessly_Large_Rod', 'Tear_of_the_
                 'Seraphs_Embrace', 'Spear_of_Shojin', 'Statikk_Shiv', 'Sword_Breaker', 'Talisman_of_Ascension', 'The_Black_Cleaver', 'The_Bloodthirster',
                 'Thiefs_Gloves', 'Thornmail', 'Titanic_Hydra', 'Trap_Claw', 'Wardens_Mail', 'Warmogs_Armor', 'Wooglets_Witchcap', 'Youmuus_Ghostblade',
                 'Zekes_Herald', 'Zephyr'];
+
+
+/* Season 1 Champions
+let ChampionList = ['Aatrox', 'Ahri', 'Akali', 'Anivia', 'Ashe', 'Aurelion_Sol', 'Blitzcrank', 'Brand', 'Braum', 'Camille', 'ChoGath', 'Darius', 'Draven',
+                'Elise', 'Evelynn', 'Fiora', 'Gangplank', 'Garen', 'Gnar', 'Graves', 'Jayce', 'Jinx', 'Karthus', 'Kassadin', 'Katarina', 'Kayle', 'Kennen',
+                'KhaZix', 'Kindred', 'Leona', 'Lissandra', 'Lucian', 'Lulu', 'Miss_Fortune', 'Mordekaiser', 'Morgana', 'Nidalee', 'Poppy', 'Pantheon',
+                'Pyke', 'RekSai', 'Rengar', 'Sejuani', 'Shen', 'Shyvana', 'Swain', 'Tristana', 'Varus', 'Vayne', 'Veigar', 'Vi', 'Volibear',
+                'Warwick', 'Yasuo', 'Zed'];
+*/
 
 /* Season 1 Items
 let ItemList = ['BF_Sword', 'Recurve_Bow', 'Needlessly_Large_Rod', 'Tear_of_the_Goddess', 'Chain_Vest', 'Negatron_Cloak', 'Giants_Belt', 'Spatula',
